@@ -1,6 +1,6 @@
 /** Connect to Moralis server */
-const serverUrl = "https://xxxxx.yourserver.com:2053/server";
-const appId = "YOUR_APP_ID";
+const serverUrl = "https://dzdfmwoloqps.usemoralis.com:2053/server";
+const appId = "w5CYNEk0LBdCYIgIEqUm2CZpxImzwlwGmuPR1fEv";
 Moralis.start({ serverUrl, appId });
 
 /** Add from here down */
@@ -10,7 +10,7 @@ async function login() {
    try {
       user = await Moralis.authenticate({ signingMessage: "Hello World!" })
       console.log(user)
-      console.log(user.get('ethAddress'))
+      console.log(user.get('0x6a164122d5cf7c840D26e829b46dCc4ED6C0ae48'))
    } catch(error) {
      console.log(error)
    }

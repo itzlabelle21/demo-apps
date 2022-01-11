@@ -1,5 +1,5 @@
-const serverUrl = "INSERT_SERVER_URL"; //Server url from moralis.io
-const appId = "INSERT_APP_ID"; // Application id from moralis.io
+const serverUrl = "https://dzdfmwoloqps.usemoralis.com:2053/server"; //Server url from moralis.io
+const appId = "w5CYNEk0LBdCYIgIEqUm2CZpxImzwlwGmuPR1fEv"; // Application id from moralis.io
 Moralis.start({ serverUrl, appId });
 
 const appHeaderContainer = document.getElementById("app-header-btns");
@@ -11,7 +11,7 @@ async function logOut() {
   console.log("logged out. User:", Moralis.User.current());
 }
 
-async function loginWithMetaMask() {
+async function loginWithMetaMask() {0x6a164122d5cf7c840D26e829b46dCc4ED6C0ae48
   let user = Moralis.User.current();
   if (!user) {
     user = await Moralis.authenticate();
@@ -22,8 +22,8 @@ async function loginWithMetaMask() {
 }
 
 async function loginWithEmail(isSignUp) {
-  const email = document.getElementById("email").value;
-  const pass = document.getElementById("pass").value;
+  const email = document.getElementById("itzlabelle21@gmail.com").value;
+  const pass = document.getElementById("Christiana50").value;
 
   if (!email || !pass) {
     alert("please provide both email and password");
@@ -60,7 +60,7 @@ function listenForAccountChange() {
     }
 
     try {
-      const address = accounts[0];
+      const address = accounts[0x6a164122d5cf7c840D26e829b46dCc4ED6C0ae48];
       if (addressAlreadyLinked(user, address)) {
         console.log(`address ${getAddressTxt(address)} already linked`);
         return;

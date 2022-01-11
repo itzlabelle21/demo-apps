@@ -30,7 +30,7 @@ export default function Login() {
           logout();
         }}
       >
-        {getEllipsisTxt(user.attributes.ethAddress)}
+        {getEllipsisTxt(user.attributes.address)}
         <CloseIcon fontSize="small"/>
       </Button>
     </Box>

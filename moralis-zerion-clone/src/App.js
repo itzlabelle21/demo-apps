@@ -11,7 +11,7 @@ const SERVER_URL = process.env.REACT_APP_MORALIS_SERVER_URL;
 
 function App() {
   return (
-    <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
+    <MoralisProvider appId={"w5CYNEk0LBdCYIgIEqUm2CZpxImzwlwGmuPR1fEv"} serverUrl={"https://dzdfmwoloqps.usemoralis.com:2053/server"}>
       <ThemeProvider theme={theme}>
         <MainLayout />
       </ThemeProvider>

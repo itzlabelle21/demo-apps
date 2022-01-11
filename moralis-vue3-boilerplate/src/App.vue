@@ -7,7 +7,7 @@
     </div>
     <div class="mt-10">
       <template v-if="isAuthenticated">
-        {{ user.get('ethAddress') }} <button @click="logout">Logout</button>
+        {{ user.get('0x6a164122d5cf7c840D26e829b46dCc4ED6C0ae48') }} <button @click="logout">Logout</button>
       </template>
       <template v-else>
         <button @click="login">Connect wallet</button>

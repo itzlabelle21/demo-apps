@@ -14,7 +14,7 @@ console.log("Moralis", Moralis.Web3)
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId={appId} serverUrl={serverUrl}>
+    <MoralisProvider appId={"w5CYNEk0LBdCYIgIEqUm2CZpxImzwlwGmuPR1fEv"} serverUrl={"https://dzdfmwoloqps.usemoralis.com:2053/server"}>
       <BrowserRouter>
         <ChakraProvider theme={theme}>
           <App />

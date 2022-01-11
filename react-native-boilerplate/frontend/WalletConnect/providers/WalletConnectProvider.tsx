@@ -26,7 +26,7 @@ type State = {
 };
 
 const defaultState: State = Object.freeze({
-  visible: false,
+  visible: true,
 });
 
 export default function WalletConnectProvider({
